@@ -1,0 +1,13 @@
+controllers:
+    resource:
+        path: ../src/Controller/
+        namespace: App\Controller
+    type: attribute
+    
+service_log_controllers:    
+    resource:
+        path: ../src/Domain/ServiceLog/Http/Controller/
+        namespace: App\Domain\ServiceLog\Http\Controller
+    type: attribute 
+    
+
